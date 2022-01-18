@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  background-color: green;
+  align-content: flex-start;
+}
+.block1 {
+  border: 2px solid yellow;
+  text-align: center;
+  background-color: yellow;
+
+  margin: 1rem;
+  width: 30%;
+  justify-content: center;
+}
+.obertka {
+  display: flex;
+  border: 1px blue;
+  flex-direction: column;
+  width: 10%;
+  gap: 1rem;
+}
+.konec {
+  display: flex;
+  flex-direction: column;
+}
