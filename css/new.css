@@ -24,6 +24,7 @@ body {
   line-height: 16px;
 }
 .form-item {
+  position: relative;
   margin-bottom: 20px;
 }
 .form-item:last-of-type {
@@ -35,4 +36,53 @@ body {
 }
 .form-item input::placeholder {
   color: rgba(26, 26, 26, 0.56);
+}
+,
+.form-item button {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
+.wraper a {
+  color: #e70b89;
+}
+.form__content {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.form__content > button {
+  padding: 16px;
+  margin-bottom: 16px;
+  background: #e70b89;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.form__content > a {
+  align-self: flex-end;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+.form__buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form__buttons > * {
+  flex: 1;
+}
+.form__buttons button:not(:last-of-type) {
+  margin-right: 20px;
+}
+.form__buttons button {
+  margin-bottom: 25px;
+}
+.form__buttons > p {
+  flex-basis: 100%;
 }
