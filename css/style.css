@@ -152,6 +152,7 @@ section.story {
   border-bottom: 4px solid rgb(238, 154, 154);
   margin-left: auto;
   margin-right: auto;
+  padding: 5%;
   width: 15%;
   padding-top: 30px;
 }
@@ -193,32 +194,66 @@ h3.amazing {
   margin: 1%;
 }
 section.design {
-  background-image: url(../unsplash_lpjb_UMOyx8.png);
+  background: url("../unsplash_lpjb_UMOyx8.png") 50% / cover no-repeat
+    rgba(255, 255, 255, 0.5);
 }
-p.foralldevices {
-  margin: 10%;
-  text-align: center;
+.gallery {
+  position: relative;
 }
-h4.unique {
-  margin: 5%;
-  text-align: center;
-}
-.macbook {
+.picture {
   display: flex;
   justify-content: center;
+  flex: 1 1 auto;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
-.macbook1 {
+.picture_ {
+  border: 20px solid #0f1111e3;
+  border-radius: 20px;
+}
+.im {
+  position: absolute;
   display: flex;
-  position: relative;
+  flex: 1 1 auto;
+  left: 750px;
+  top: 0px;
+}
+.picture1 {
+  position: absolute;
+  left: 20px;
+  top: 310px;
+  border: 5px solid #0f1111e3;
+  border-radius: 35px;
 }
 section.service {
   background-color: #ffffff;
 }
-p.service_p {
+p.lorem1 {
   text-align: center;
-  margin: 10%;
+  margin: 5%;
 }
-h4.whatwedo {
-  text-align: center;
-  margin: 2%;
+.chel-closet {
+  display: flex;
+  justify-content: space-evenly;
+}
+.closet {
+  display: flex;
+  flex-direction: column;
+}
+.shelf1 {
+  display: flex;
+  margin-bottom: 50px;
+  padding: 10px 100px 10px 10px;
+  border: 2px solid #c6cbcd;
+}
+section.comment {
+  background-color: #f8f8f8;
+}
+.icon14lorem {
+  display: flex;
+}
+.icon14 {
+  border: 2px solid #95e1d3;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 20px;
 }
