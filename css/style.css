@@ -403,8 +403,7 @@ section.who {
 .gradient_img {
   cursor: pointer;
   position: absolute;
-  top: -1rem;
-  left: -1rem;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -457,11 +456,28 @@ section.iconsy {
   padding: 0 15px 0;
 }
 .arnament1 {
+  margin: auto;
 }
-.creative_images {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+.arnament2 {
+  margin: auto;
+}
+.arnament3 {
+  margin: auto;
+}
+.arnament4 {
+  margin: auto;
+}
+.arnament5 {
+  margin: auto;
+}
+.arnament6 {
+  margin: auto;
+}
+section.some_of_work {
+  background-color: #f8f8f8;
+}
+.creative__images {
+  display: flex;
 }
 .ellipse {
   margin-top: 5%;
